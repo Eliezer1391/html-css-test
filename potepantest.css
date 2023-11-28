@@ -89,7 +89,6 @@ img {
   width: auto;
 }
 
-
 @media screen and (max-width: 767px) {
   .HeaderLogo__image--sp {
     display: block;
@@ -302,7 +301,7 @@ main {
 }
 
 .FirstView {
-  background-image: url(images/top-hero-sp.jpg.webp);
+  background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero-sp.jpg.webp);
   background-size: cover;
   background-position: center;
   padding-top: 100px;
