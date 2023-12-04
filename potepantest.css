@@ -160,6 +160,7 @@ img {
     transition: transform 0.5s;
     z-index: 99;
     background-color: rgba(0, 0, 0, 0.8);
+    -webkit-overflow-scrolling: touch;
     height: 100%;
   }
 }
@@ -408,13 +409,13 @@ main {
 
 @media screen and (max-width: 767px) {
   .FirstViewContent__images img {
-    width: 27.5%;
+    width: 30%;
   }
 }
 
 
 .FirstViewContent__images img:nth-of-type(2) {
-  width: 32%
+  width: 35%
   }
 
 .FirstViewContent__images img:last-of-type {
@@ -446,8 +447,8 @@ main {
 
 @media screen and (max-width: 767px) {
   .FirstViewContent__button {
-    width: 100%;
-    margin-left:-10px;
+    width: 140%;
+    margin-left:-60px;
   }
 }
 
